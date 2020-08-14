@@ -1,0 +1,212 @@
+
+.border{
+  border: 1px solid #ccc;
+}
+
+.canvas{
+  height: 100% !important;
+}
+
+table {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.row-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.canvas-block{
+  padding: 0rem;
+}
+.percentage{
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.percent-block{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-icon{
+  font-size: 3rem;
+  width: 20% !important;
+  color: red;
+  font-weight: 900;
+  height: auto;
+}
+
+h3{
+  font-size: 3rem;;
+  font-weight: 500;
+  margin: 0 !important;
+  color:#777;
+}
+.user-block{
+  height: 100%;
+}
+.profile{
+  height: 100%;
+}
+.person-icon{
+  font-size: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color:#ccc;
+
+}
+.flex{
+  display: flex;
+}
+
+.icon{
+  width: 30%;
+}
+
+.info{
+  // height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-left: 2px solid #ccc;
+  width: 70%;
+  padding: 1rem;
+    span{
+      margin-top: 1rem;
+    }
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+@media screen and (max-width: 575px) {
+	.percentage {
+	    height: 6rem;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    width: 100%;
+	}
+
+	.second-card{
+			margin-top: 1rem;
+	}
+
+	.icon{
+		width: 25%;
+	}
+	.person-icon{
+    font-size: 5rem;
+	}
+	.info{
+    width: 100%;
+		padding-left: 0.5rem;
+	}
+}
+
+
+@media screen and (max-width: 1200px) {
+    .percentage{
+      height: 7rem;
+    }
+    .second-card{
+  			margin-top: 1rem;
+  	}
+
+    .icon{
+  		width: 40%;
+  	}
+  	.person-icon{
+      font-size: 7rem;
+  	}
+  	.info{
+      width: 100%;
+      padding: 0;
+      padding-left: 0.5rem;
+      span{
+        margin-top: 1rem;
+      }
+  	}
+}
+@media screen and (max-width: 1000px) {
+    .percentage{
+      height: 6rem;
+    }
+    .second-card{
+  			margin-top: 1rem;
+  	}
+
+    .icon{
+  		width: 35%;
+  	}
+  	.person-icon{
+      font-size: 7rem;
+  	}
+  	.info{
+      width: 100%;
+  		padding-left: 0.5rem;
+      span{
+        margin-top: 0.5rem;
+      }
+  	}
+}
+
+
+@media screen and (max-width: 800px) {
+  .percentage{
+    height: 4rem;
+  }
+  .second-card{
+			margin-top: 1rem;
+	}
+
+  .icon{
+		width: 25%;
+	}
+	.person-icon{
+    font-size: 5rem;
+	}
+	.info{
+    width: 100%;
+		padding-left: 0.5rem;
+    span{
+      margin-top: 0.5rem;
+    }
+	}
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+
+      .table-responsive{
+        display: table !important;
+      }
+
+}
+@media (min-width: 1200px) {
+  .table-responsive{
+    display: table !important;
+  }
+}
+
+
+.selected-user{
+  background-color: #7a7afc !important;
+  color: white;
+}
